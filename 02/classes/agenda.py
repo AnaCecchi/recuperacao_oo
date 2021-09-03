@@ -1,5 +1,5 @@
-from .contato import Contato
-from .tarefa import Tarefa
+from contato import Contato
+from tarefa import Tarefa
 
 class Agenda:
 
