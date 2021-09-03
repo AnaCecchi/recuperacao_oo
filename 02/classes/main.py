@@ -1,6 +1,6 @@
-from .agenda import Agenda
-from .contato import Contato
-from .tarefa import Tarefa
+from agenda import Agenda
+from contato import Contato
+from tarefa import Tarefa
 
 class Main:
     def __init__(self):
