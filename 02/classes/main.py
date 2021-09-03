@@ -6,7 +6,7 @@ class Main:
     def __init__(self):
         self.em_execucao = True
         self.agenda = Agenda()
-        self.agenda.set_proprietario('Prof Debs')
+        self.agenda.set_proprietario('Ana Cecchi')
         self.agenda.set_ano(2021)
 
     def mostrar_menu(self):
@@ -48,7 +48,6 @@ class Main:
             self.concluir_tarefas()
         elif (opcao == '8'):
             self.definir_tarefas_pendentes()
-
 
     def cadastrar_contato(self):
         print('Novo contato')
