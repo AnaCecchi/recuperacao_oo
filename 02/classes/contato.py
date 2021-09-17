@@ -14,3 +14,13 @@ class Contato:
         return self.__telefone
     def set_telefone(self, telefone):
         self.__telefone = telefone
+
+    def get_email(self):
+        return self.__email
+    def set_email(self,email):
+        self.__email = email
+
+    def get_cpf(self):
+        return self.__cpf
+    def set_cpf(self, cpf):
+        self.__cpf = cpf
